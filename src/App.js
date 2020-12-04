@@ -5,12 +5,14 @@ import CounterTwo from './components/CounterTwo';
 import CounterThree from './components/CounterThree';
 import DataFetchOne from './components/DataFetchOne'
 import DataFetchTwo from './components/DataFetchTwo';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-     <DataFetchTwo/>
+     <Counter/>
      {/*
+     <DataFetchTwo/>
      <DataFetchOne/> 
      <CounterThree/>
      <CounterTwo/> 
