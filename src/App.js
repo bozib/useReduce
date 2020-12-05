@@ -6,12 +6,22 @@ import CounterThree from './components/CounterThree';
 import DataFetchOne from './components/DataFetchOne'
 import DataFetchTwo from './components/DataFetchTwo';
 import Counter from './components/Counter';
+import FocusInput from './components/FocusInput';
+import HookTimer from './components/HookTimer';
+import CustomCounter from './hooks/CustomCounter';
+import CustomCounterTwo from './hooks/CustomCounterTwo';
+import UserForm from './hooks/UserForm';
 
 function App() {
   return (
     <div className="App">
-     <Counter/>
+   <UserForm/>
      {/*
+      <CustomCounter/>
+    <CustomCounterTwo/>
+      <HookTimer/>
+     <FocusInput/>
+     <Counter/>
      <DataFetchTwo/>
      <DataFetchOne/> 
      <CounterThree/>
